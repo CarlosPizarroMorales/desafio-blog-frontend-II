@@ -37,6 +37,6 @@ Si la instalación fue correcta, entonces puedes ejecutar el comando que compila
 
 `sass --watch assets/sass/main.scss:assets/css/style.css`
 
-
+[ENLACE](./assets/sass/abstracts/_variables.scss#L10)
 
 
