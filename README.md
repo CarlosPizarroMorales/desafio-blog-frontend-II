@@ -63,7 +63,7 @@ Para aplicarlo en este proyecto es necesario que implementes el patrón 7-1, que
             /main.scss
 ```
 
-En esta estructura los directorios aparecen en forma alfabética porque es como los presentará el browser sin importar cuál creemos primero, pero un aspecto fundamental para que nuestros estilos funcionen es que importemos los archivos parciales que crearemos dentro de estas 7 carpetas en un orden específico para que los estilos no se anulen de maneras inesperadas o contrarias a lo que necesitamos. El orden en que importaremos los archivos de las carpetas es este: 
+En esta estructura los directorios aparecen en forma alfabética porque es como los presentará el editor sin importar cuál creemos primero, pero un aspecto fundamental para que nuestros estilos funcionen es que importemos los archivos parciales que crearemos dentro de estas 7 carpetas en un orden específico para que los estilos no se anulen de maneras inesperadas o contrarias a lo que necesitamos. El orden de las carpetas a la hora de importar sus archivos es este: 
 
 ```
 @import 'abstracts/*';
@@ -83,13 +83,13 @@ Una vez creadas las carpetas y el archivo `main.scss` podemos comenzar a escribi
 - Deben comenzar con un guión bajo para que Sass "entienda" que son parciales.
 - En el archivo `main.scss` no es necesario que se incluya ni el guión bajo ni la extensión del archivo.
 
-Entonces luego de escribir tus primeros archivos parciales y escribir su nombre en `main.scss` para importarlos, puedes ejecutar el comando que compila estos archivos y los transforma en un solo archivo style.css en assets/css:
+Entonces luego de escribir tus primeros archivos parciales y escribir su nombre en `main.scss` para importarlos, asegúrate de que tu terminal está situada en la carpeta del proyecto y ya puedes ejecutar el comando que compila estos archivos y los transforma en un solo archivo style.css en assets/css:
 
 `sass --watch assets/sass/main.scss:assets/css/style.css`
 
 El comando literalmente podría leerse como la siguiente orden: 
 
-"Sass: vigila constantemente mi archivo assets/sass/mains.scss y transforma todo lo que importes en ese archivo en una sola hoja de estilos que llamarás assets/css/style.css"
+> _"Sass: vigila constantemente mi archivo assets/sass/mains.scss y transforma todo lo que importes en ese archivo en una sola hoja de estilos que llamarás assets/css/style.css"_
 
 Una consideración importante es que Sass solo escribe un nuevo archivo style.css pero no puede sobre escribir uno existente, por lo que si ya creaste el archivo style.css antes de compilar con sass, debes cambiarle el nombre, porque de lo contrario generará un error.  
 
