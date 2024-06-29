@@ -1,0 +1,29 @@
+.login {
+  width: clamp(300px, 50vw, 400px);
+  margin: 0 auto;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.login--register {
+  min-height: 400px;
+}
+
+.login__label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__register--link {
+  font-weight: 900;
+}
+
+.login__control {
+  border: 1px solid $border-color-login;
+  border-radius: $border-radius-login;
+  padding: .5rem 1rem;
+}

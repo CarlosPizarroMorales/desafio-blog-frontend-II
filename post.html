@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Blog Frontend I</title>
+  </head>
+
+  <body class="body">
+    <!-- navbar -->
+    <nav class="navbar container">
+      <figure class="logo">
+        <a href="./home.html">
+          <img class="logo__img" src="./assets/img/logo/adl.png" alt="logo ADL">
+        </a>
+        <figcaption class="logo__brand">Blog Frontend</figcaption>
+      </figure>
+    </nav>
+
+    <hr>
+
+    <!-- seccion main -->
+    <main class="main container">
+      
+      <!-- container main post -->
+      <article class="post">
+        
+        <hgroup>
+          <h1 class="post__title heading">Modifica el tema de Bootstrap con variables CSS</h1>
+          <!-- componente user forma parte del componente card -->
+          <div class="post__subheading">
+            <figure class="user">
+              <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+              <figcaption class="user__name">Desafío Latam</figcaption>
+            </figure>
+            <p class="post__date">24 Noviembre, 2023</p>
+          </div>
+        </hgroup>
+
+        <div class="post__body">
+          <p class="post__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum culpa suscipit, corrupti delectus voluptate doloribus. Quos corrupti reiciendis distinctio facilis maiores? Cum, temporibus quas quasi possimus facilis labore amet illum.
+          Incidunt suscipit voluptatum consequuntur quasi ipsam inventore eos, numquam nobis sed possimus quia. Esse ipsam temporibus quibusdam atque similique est consequatur reiciendis aut, expedita provident repudiandae reprehenderit placeat corporis quaerat.
+          Praesentium odit at et atque pariatur sint, quas repellendus quod, ducimus est error sapiente dolore ab! Voluptate modi libero dolore nobis deserunt laborum, quae corrupti pariatur culpa deleniti eveniet distinctio.</p>
+          <div class="post__img-wrapper">
+            <img src="./assets/img/post/bootstrap.png" alt="post bootstrap" class="card--main__img">
+          </div>
+          <p class="post__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum nihil saepe repellendus enim omnis ducimus. Modi mollitia quae deserunt quidem quam. Molestias incidunt omnis, inventore eligendi officia praesentium accusamus.
+          Eveniet, iste sed reiciendis fuga ducimus rem similique libero blanditiis, pariatur enim magnam, doloremque perferendis aperiam sint ipsum repellendus possimus vel. Incidunt facere aliquid ipsum animi a voluptate excepturi rem.
+          Delectus laudantium consequuntur veniam asperiores quia laboriosam ex rem commodi sint expedita assumenda eius unde, illo obcaecati, modi fuga nobis sequi earum voluptatibus optio eos magni! Omnis nobis reprehenderit quod.</p>
+        </div>
+      </article>
+      
+      <!-- related -->
+      <div class="related"> <!-- container para layout -->
+        <section class="related-container">
+          <h1 class="heading">Relacionados</h1>
+          <div class="related-cards-container"> <!-- container para layout -->
+            <!-- card vue -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/vue-components.png" alt="post bootstrap" class="card__img card__img--vue">
+              </div>
+              <p class="card__date">12 Noviembre, 2023</p>
+              <p class="card__title">Componentes Vue</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+            <!-- card api -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/api-js.png" alt="post bootstrap" class="card__img card__img--api">
+              </div>
+              <p class="card__date">18 Noviembre, 2023</p>
+              <p class="card__title">Consumo de API con Javascript</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+            <!-- card sass -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/sass.jpg" alt="post bootstrap" class="card__img card__img--sass">
+              </div>
+              <p class="card__date">14 Noviembre, 2023</p>
+              <p class="card__title">CSS reutilizable con Sass</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+    <hr>
+
+    <!-- footer -->
+    <footer class="footer container">
+      <!-- componente logo -->
+      <figure class="logo">
+        <a href="./home.html">
+          <img class="logo__img" src="./assets/img/logo/adl.png" alt="logo ADL">
+        </a>
+        <figcaption class="logo__brand">Blog Frontend</figcaption>
+      </figure>
+
+      <!-- componente copyright -->
+      <p class="copyright">
+        <span class="copyright__brand">Desafío Latam</span> - <span class="copyright__year">2024</span></p>
+    </footer>
+  </body>
+
+</html>

@@ -1,0 +1,39 @@
+.container {
+  width: clamp(1000px, 82vw, 1200px);
+  margin: 0 auto;
+}
+
+.novedades-cards-container,
+.popular-tags-container,
+.popular-cards-container,
+.tag-cards-container,
+.suscribe {
+  display: flex;
+}
+
+.novedades-container {
+  height: calc(100vh - 130px)
+}
+
+.novedades-horizontal-cards-container {
+  margin-left: 2rem;
+}
+
+.popular-tags-container {
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.popular-cards-container {
+  width: 650px;               /* respeta maqueta 1280px */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  .card {
+    width: 300px;
+  }
+}
+
+.tag-cards-container {
+  flex-direction: column;
+}

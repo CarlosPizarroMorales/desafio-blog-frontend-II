@@ -1,0 +1,132 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.card__title,
+.card--horizontal__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card--main {
+
+  .user__avatar {
+    width: 60px;
+  }
+
+  .user__name {
+    font-size: 24px;
+  }
+
+  .card--main__date {
+    margin-top: 1rem;
+  }
+
+  .card--main__title {
+    margin: 1rem 0;
+  }
+}
+
+.card--main__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-card-img-wrapper {
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.card--main__img {
+  max-width: initial;
+  width: 1000px;
+}
+
+
+.card--horizontal {
+  width: 400px;
+  height: 145px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card--horizontal:not(.card--horizontal:last-child) {
+  margin-bottom: 2rem;
+}
+
+.card-horizontal-img-wrapper {
+  width: 189px;
+  height: 145px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.card--horizontal__img {
+  max-width: initial;
+  width: 220px;
+}
+
+.card--horizontal__title {
+  margin: 0.5rem 0;
+}
+
+.card-horizontal-body-wrapper {
+  padding-left: 1rem;
+}
+
+.popular-cards-container {
+
+  .card {
+    margin-bottom: 2.5rem;
+  }
+  .card__date {
+    margin-top: 1rem;
+  }
+
+  .card__title {
+    margin: 1rem 0;
+  }
+}
+
+.popular-card-img-wrapper {
+  width: 298px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+
+  .card__img {
+    max-width: initial;
+  }
+
+  .card__img--vue {
+    width: 310px;
+  }
+
+  .card__img--api {
+    width: 310px;
+  }
+
+  .card__img--sass {
+    width: 410px;
+  }
+
+  .card__img--bootstrap {
+    width: 630px;
+  }
+}

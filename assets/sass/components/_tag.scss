@@ -1,0 +1,46 @@
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0.5rem 1rem;
+  width: 300px;
+  border-radius: 16px;
+}
+
+.tag:not(tag:last-child) {
+  margin-bottom: 2rem;
+}
+
+.tag__img {
+  height: 75px;
+}
+
+.tag__name {
+  font-size: 32px;
+  font-weight: 700;
+  color: $font-color-tag;
+}
+
+.tag--html {
+  background-color: $bg-html;
+}
+
+.tag--js {
+  background-color: $bg-js;
+}
+
+.tag--css {
+  background-color: $bg-css;
+}
+
+.tag--react {
+  background-color: $bg-react;
+}
+
+.tag--vue {
+  background-color: $bg-vue;
+}
+
+.tag--bootstrap {
+  background-color: $bg-bootstrap;
+}

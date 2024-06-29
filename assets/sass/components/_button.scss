@@ -1,0 +1,38 @@
+.login__button--init {
+  display: flex;
+  font-size: 1.5rem;
+  background-color: $bg-adl;
+  text-align: center;
+}
+
+.login__init-session--google {
+  width: 20px;
+}
+
+.login__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.login__button--link {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.login__button--google {
+  border: 1px solid $border-color-login;
+  border-radius: $border-radius-login;
+  background-color: transparent;
+}
+
+.login__button--link-google {
+  font-weight: 700;
+  text-decoration: none;
+}
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Blog Frontend I</title>
+  </head>
+
+  <body class="body">
+    <!-- navbar -->
+    <nav class="navbar container">
+      <figure class="logo">
+        <a href="#">
+          <img class="logo__img" src="./assets/img/logo/adl.png" alt="logo ADL">
+        </a>
+        <figcaption class="logo__brand">Blog Frontend</figcaption>
+      </figure>
+    </nav>
+
+    <hr>
+
+    <!-- seccion main -->
+    <main class="main container">
+      
+      <!-- container novedades -->
+      
+      <section class="novedades-container">
+        <h1 class="heading">Novedades</h1>
+        <div class="novedades-cards-container"> <!-- container para layout -->
+          <!-- main card -->
+          <article class="card card--main">
+            <div class="main-card-img-wrapper">
+              <img src="./assets/img/post/bootstrap.png" alt="post bootstrap" class="card--main__img">
+            </div>
+            <div class="card-main-body-wrapper">
+              <p class="card--main__date">24 Noviembre, 2023</p>
+              <p class="card--main__title">Modifica el tema de Bootstrap con variables CSS</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </div>
+          </article>
+          <!-- cards horizontales -->
+          <div class="novedades-horizontal-cards-container">  <!-- container para layout -->
+            <!-- card js -->
+            <article class="card card--horizontal">
+              <div class="card-horizontal-img-wrapper">
+                <img src="./assets/img/post/herencia-js.png" alt="post js" class="card--horizontal__img">
+              </div>
+              <div class="card-horizontal-body-wrapper">
+                <p class="card--horizontal__date">20 Noviembre, 2023</p>
+                <p class="card--horizontal__title">Herencia en Javascript</p>
+                <!-- componente user forma parte del componente card -->
+                <figure class="user">
+                  <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                  <figcaption class="user__name">Desafío Latam</figcaption>
+                </figure>
+              </div>
+            </article>
+            <!-- card html semántico -->
+            <article class="card card--horizontal">
+              <div class="card-horizontal-img-wrapper">
+                <img src="./assets/img/post/etiquetas-semanticas-html.png" alt="post bootstrap" class="card--horizontal__img">
+              </div>
+              <div class="card-horizontal-body-wrapper">
+                <p class="card--horizontal__date">18 Noviembre, 2023</p>
+                <p class="card--horizontal__title">Etiquetas semánticas</p>
+                <!-- componente user forma parte del componente card -->
+                <figure class="user">
+                  <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                  <figcaption class="user__name">Desafío Latam</figcaption>
+                </figure>
+              </div>
+            </article>
+            <!-- card react -->
+            <article class="card card--horizontal">
+              <div class="card-horizontal-img-wrapper">
+                <img src="./assets/img/post/react-components.png" alt="post react" class="card--horizontal__img">
+              </div>
+              <div class="card-horizontal-body-wrapper">
+                <p class="card--horizontal__date">29 Noviembre, 2023</p>
+                <p class="card--horizontal__title">Componentes React</p>
+                <!-- componente user forma parte del componente card -->
+                <figure class="user">
+                  <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                  <figcaption class="user__name">Desafío Latam</figcaption>
+                </figure>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <!-- container populares + categorias -->
+      <div class="popular-tags-container"> <!-- container para layout -->
+        <section class="popular-container">
+          <h1 class="heading">Populares</h1>
+          <div class="popular-cards-container"> <!-- container para layout -->
+            <!-- card vue -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/vue-components.png" alt="post bootstrap" class="card__img card__img--vue">
+              </div>
+              <p class="card__date">12 Noviembre, 2023</p>
+              <p class="card__title">Componentes Vue</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+            <!-- card api -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/api-js.png" alt="post bootstrap" class="card__img card__img--api">
+              </div>
+              <p class="card__date">18 Noviembre, 2023</p>
+              <p class="card__title">Consumo de API con Javascript</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+            <!-- card sass -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/sass.jpg" alt="post bootstrap" class="card__img card__img--sass">
+              </div>
+              <p class="card__date">14 Noviembre, 2023</p>
+              <p class="card__title">CSS reutilizable con Sass</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+            <!-- card bootstrap -->
+            <article class="card">
+              <div class="popular-card-img-wrapper">
+                <img src="./assets/img/post/bootstrap.png" alt="post bootstrap" class="card__img card__img--bootstrap">
+              </div>
+              <p class="card__date">17 Noviembre, 2023</p>
+              <p class="card__title">Componentes Bootstrap</p>
+              <!-- componente user forma parte del componente card -->
+              <figure class="user">
+                <img src="./assets/img/logo/adl.png" alt="avatar del usuario ADL" class="user__avatar">
+                <figcaption class="user__name">Desafío Latam</figcaption>
+              </figure>
+            </article>
+          </div>
+        </section>
+
+        <!-- categories 'tag' container -->
+        <section class="tag-container">
+          <h1 class="heading">Categorías</h1>
+          
+          <div class="tag-cards-container">
+            <!-- tag html -->
+            <figure class="tag tag--html">
+              <img src="./assets/img/logo/html.png" alt="logo html" class="tag__img">
+              <p class="tag__name">HTML</p>
+            </figure>
+            <!-- tag js -->
+            <figure class="tag tag--js">
+              <img src="./assets/img/logo/js.png" alt="logo js" class="tag__img">
+              <p class="tag__name">Javascript</p>
+            </figure>
+            <!-- tag css -->
+            <figure class="tag tag--css">
+              <img src="./assets/img/logo/css.png" alt="logo css" class="tag__img">
+              <p class="tag__name">CSS</p>
+            </figure>
+            <!-- tag react -->
+            <figure class="tag tag--react">
+              <img src="./assets/img/logo/react.png" alt="logo react" class="tag__img">
+              <p class="tag__name">React</p>
+            </figure>
+            <!-- tag vue -->
+            <figure class="tag tag--vue">
+              <img src="./assets/img/logo/vue.png" alt="logo vue" class="tag__img">
+              <p class="tag__name">Vue</p>
+            </figure>
+            <!-- tag Bootstrap -->
+            <figure class="tag tag--bootstrap">
+              <img src="./assets/img/logo/bootstrap-logo.png" alt="logo bootstrap" class="tag__img">
+              <p class="tag__name">Bootstrap</p>
+            </figure>
+          </div>
+          <!-- link -->
+          <p class="link-more"><a href="#">Ver todas las categorías ></a></p>                    
+        </section>
+      </div>
+    </main>
+    
+    <!-- Acá debe ir el componente de suscribirse -->
+    <form class="suscribe container">
+      <label class="suscribe__label">Mantente actualizado sobre el Desarrollo Frontend
+        <input class="suscribe__input" type="text">
+      </label>
+      <input class="suscribe__submit" type="button" value="Suscríbete">
+    </form>
+
+    <hr>
+
+    <!-- footer -->
+    <footer class="footer container">
+      <!-- componente logo -->
+      <figure class="logo">
+        <a href="#">
+          <img class="logo__img" src="./assets/img/logo/adl.png" alt="logo ADL">
+        </a>
+        <figcaption class="logo__brand">Blog Frontend</figcaption>
+      </figure>
+
+      <!-- componente copyright -->
+      <p class="copyright">
+        <span class="copyright__brand">Desafío Latam</span> - <span class="copyright__year">2024</span></p>
+    </footer>
+    
+    <script>
+      /* pequeño script que mejora la usabilidad al hacer reactiva toda 
+       * la card principal para navegar al post sin incurrir en horrores
+       * con el elemento <a> ni recurrir a eventos inline.
+       */
+      const post = document.querySelector('.card--main');
+      post.addEventListener('click', navegar);
+
+      function navegar() {
+        location = './post.html';
+      }
+    </script>
+
+  </body>
+
+</html>

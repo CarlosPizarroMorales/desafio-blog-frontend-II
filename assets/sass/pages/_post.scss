@@ -1,0 +1,33 @@
+.related-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+
+.post__subheading {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  .post__date {
+    margin-left: 3rem;
+  }
+}
+
+.post__body {
+  width: 100%;
+  padding: 2rem;
+  background-color: $bg-post;
+}
+
+.post__img-wrapper {
+  width: 60%;
+  margin: 2rem auto;
+  border-radius: $border-radius-post;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

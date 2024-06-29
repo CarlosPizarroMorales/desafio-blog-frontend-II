@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user__avatar {
+  width: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.user__name {
+  margin: 0;
+  /* font-weight: 500; */ /* En realidad no queda bien */
+}

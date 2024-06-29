@@ -1,0 +1,13 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: $font;
+  line-height: $line-height;
+  color: $font-color;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}

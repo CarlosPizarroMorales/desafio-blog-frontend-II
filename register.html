@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Blog Frontend I</title>
+  </head>
+
+  <body class="body">
+    <!-- navbar -->
+    <nav class="navbar container">
+      <figure class="logo">
+        <a href="#">
+          <img class="logo__img" src="./assets/img/logo/adl.png" alt="logo ADL">
+        </a>
+        <figcaption class="logo__brand">Blog Frontend</figcaption>
+      </figure>
+    </nav>
+  
+    <hr>
+    <!-- here login -->
+    <main class="main--login">
+      <h1 class="login__heading">Bienvenido</h1>
+      <form class="login login--register">
+        <input class="login__control" type="text" placeholder="Nombre">
+        <input class="login__control" type="text" placeholder="Apellido">
+        <input class="login__control" type="text" placeholder="Email">
+        <input class="login__control" type="text" placeholder="Contraseña">
+        <input class="login__control" type="text" placeholder="Confirma tu contraseña">
+        <!-- <label class="login__label" for="recordarme">
+          <input class="login__control" type="checkbox" name="recordarme" id="recordarme">
+          Recordarme
+          <span>¿Olvidaste tu contraseña?</span>
+        </label> -->
+        <button class="login__button login__button--init" type="button"><a class="login__button--link" href="./index.html">Crea tu cuenta</a></button>
+        <button class="login__button login__button--google" type="button"><img class="login__init-session--google" src="./assets/img/google.png" alt=""><a class="login__button--link-google" href="./index.html">Regístrate con Google</a></button>
+      </form>
+      <p class="registro">¿Ya tienes una cuenta? <a class="login__register--link" href="./index.html">Inicia sesión</a></p>
+    </main> 
+  </body>
+
+</html>
